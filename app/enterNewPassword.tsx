@@ -1,13 +1,10 @@
 import { Text, View, StyleSheet } from "react-native";
 import { Link } from "expo-router";
 
-export default function SignUpScreen() {
+export default function EnterNewPasswordScreen() {
   return (
     <View style={styles.container}>
-      <Text style={styles.text}>Sign Up screen</Text>
-      <Link href="/login" style={styles.button}>
-        Go to Login screen
-      </Link>
+      <Text style={styles.text}>Enter New Password screen</Text>
     </View>
   );
 }
